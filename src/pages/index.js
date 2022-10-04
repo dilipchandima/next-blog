@@ -11,12 +11,15 @@ export default function Home() {
       </Head>
 
       <main className="h-screen grid content-center">
-        <h1 className="text-8xl font-bold text-gray-50 text-center w-3/4 mx-auto">
-          {`let's create something amazing together`}
+        <h1 className="text-8xl font-bold text-gray-50 text-center w-3/4 mx-auto ">
+          Let{"'"}s create something{" "}
+          <span className="text-purple-600">amazing</span> together
         </h1>
-        <h5 className="text-2xl font-mono font-extralight text-gray-400 text-center mt-10 w-2/4 mx-auto">
-          Dileepa Chandima, a full stack developer based on Sri Lanka, who
-          passionate about problem solving and thinking out of teh box
+        <h5 className="text-lg font-mono font-light text-gray-400 text-center mt-10 w-2/4 mx-auto">
+          Hi I{"'"}m{" "}
+          <span className="font-medium italic">Dileepa Chandima</span>, a full
+          stack developer based on Sri Lanka, who passionate about problem
+          solving and thinking out of teh box
         </h5>
       </main>
     </div>
