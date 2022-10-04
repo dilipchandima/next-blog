@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="h-screen grid content-center">
         <h1 className="text-8xl font-bold text-gray-50 text-center w-3/4 mx-auto">
-          let's create something amazing together
+          {`let's create something amazing together`}
         </h1>
         <h5 className="text-2xl font-mono font-extralight text-gray-400 text-center mt-10 w-2/4 mx-auto">
           Dileepa Chandima, a full stack developer based on Sri Lanka, who
