@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Typewriter } from "react-simple-typewriter";
 // import Image from "next/image";
 
 export default function Home() {
@@ -12,8 +13,20 @@ export default function Home() {
 
       <main className="h-screen grid content-center">
         <h1 className="text-8xl font-bold text-gray-50 text-center w-3/4 mx-auto ">
-          Let{"'"}s create something{" "}
-          <span className="text-purple-600">amazing</span> together
+          Let{"'"}s create something
+          <br />
+          <span className="text-purple-600">
+            <Typewriter
+              words={["amazing", "stunning", "profitable"]}
+              loop={0}
+              cursor
+              cursorStyle=""
+              typeSpeed={90}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>{" "}
+          together
         </h1>
         <h5 className="text-lg font-mono font-light text-gray-400 text-center mt-10 w-2/4 mx-auto">
           Hi I{"'"}m{" "}
